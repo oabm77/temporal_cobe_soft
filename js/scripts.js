@@ -25,14 +25,14 @@ function verificaPassword() {
     success: function(data) {
       if(data) {
         $.alert({
-    title: 'Mensaje',
-    content: 'Ha ingresado correctamente!',
-      });
+          title: 'Mensaje',
+          content: 'Ha ingresado correctamente!',
+        });
       } else {
         $.alert({
-    title: 'Alerta!',
-    content: 'Falló el ingreso!',
-});
+          title: 'Alerta!',
+          content: 'Falló el ingreso!',
+        });
       }
     }
   });
