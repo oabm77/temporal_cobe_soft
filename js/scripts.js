@@ -14,6 +14,13 @@ $(document).ready(function() {
   $(document).on("hidden.bs.modal", "#loginModal", function () {
     $('#loginModal').remove(); // Remove from DOM.
   });
+
+  $(document).on("click", ".opcionMenu", function(e) {
+    e.preventDefault();
+    $.get($(this).attr('href'), function(data) {
+      $('.container').empty().append(data);
+    });
+  });
 });
 
 function verificaPassword() {
@@ -28,6 +35,7 @@ function verificaPassword() {
           title: 'Mensaje',
           content: 'Ha ingresado correctamente!',
         });
+        $('.header-right').empty().append(data);
       } else {
         $.alert({
           title: 'Alerta!',
