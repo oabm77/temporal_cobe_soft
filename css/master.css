@@ -76,7 +76,7 @@ body {
 
 .opcionMenu:hover
 {
-  color: tomato;
+  color: white;
   text-decoration: none;
 }
 
@@ -185,7 +185,7 @@ body {
   padding-top: 125px;
   right: -100px;
 
-  background: #ededed;
+  background-color: gray;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
@@ -209,6 +209,16 @@ body {
 {
   transform: scale(1.0, 1.0);
   opacity: 1;
+}
+
+.table-responsive {
+  padding: 15px;
+  background-color: #edf0f4;
+  box-shadow: 10px 10px 5px grey;
+}
+
+table th.iconCell {
+  width: 1px;
 }
 
 @media screen and (max-width: 500px) {
