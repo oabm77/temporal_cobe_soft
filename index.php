@@ -28,7 +28,7 @@ session_start();
 
   <div class="footer">
     <div class="footer-right">
-      Colombia, 2018.
+      Bogotá Colombia, 2018.
     </div>
   </div>
 
