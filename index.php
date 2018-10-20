@@ -16,7 +16,7 @@ session_start();
 <body>
 
   <div class="header">
-    <img src="img/logo_cobe_soft.png" class="logo" alt="Logotipo Empresa Desarrolladora">
+    <img src="img/logo_cobe_soft.png" class="logo" alt="Logotipo Empresa Desarrolladora - Cobe Soft">
     <div class="header-right">
       <a id="loginBtn" data-toggle="modal" href="#loginModal">Ingresar</a>
     </div>
